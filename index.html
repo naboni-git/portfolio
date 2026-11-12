@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Naboni Abrham | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">NABONI<span>.</span></a>
+    <nav class="links" aria-label="Sections">
+      <a href="#achievements">Achievements</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#terminal">Terminal</a>
+      <a class="keep" href="#contact">Contact</a>
+      <button class="tbtn" id="theme" type="button" aria-label="Switch light or dark theme">◐</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+  <div class="hero">
+    <div>
+      <p class="eyebrow">Computer Science · Addis Ababa University</p>
+      <h1>Naboni <em>Abrham</em></h1>
+      <p class="role" id="role" aria-label="Cybersecurity, full-stack development and QA engineering">Cybersecurity · Full-Stack · QA</p>
+      <p class="lede">Computer Science student at Addis Ababa University and Full-Stack Software Development &amp; QA Engineering student at IBT College of Canada, passionate about cybersecurity. Trained by INSA in pentesting, Red/Blue teaming and malware analysis, and shaped by National Service military training.</p>
+      <div class="cta">
+        <a class="btn solid" href="#achievements">See my achievements</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+      <p class="handle">@naboniya on <a href="https://www.tiktok.com/@naboniya" target="_blank" rel="noopener">TikTok</a> · <a href="https://www.instagram.com/naboniya" target="_blank" rel="noopener">Instagram</a> · <a href="https://x.com/naboniya" target="_blank" rel="noopener">X</a> · <a href="https://www.youtube.com/@naboniya" target="_blank" rel="noopener">YouTube</a> · <a href="https://www.facebook.com/naboniya" target="_blank" rel="noopener">Facebook</a></p>
+    </div>
+    <div class="portrait">
+      <svg viewBox="0 0 200 200" aria-hidden="true">
+        <circle class="ring-bg" cx="100" cy="100" r="94"/>
+        <circle class="ring-fg" id="ring" cx="100" cy="100" r="94" pathLength="100" stroke-dasharray="100" stroke-dashoffset="8.3"/>
+      </svg>
+      <div class="photo"><img src="images/photo.jpg" alt="Portrait of Naboni Abrham" width="600" height="600"></div>
+      <div class="badge"><b>550.00<small> / 600</small></b><span>ESSLCE entrance exam</span></div>
+    </div>
+  </div>
+
+  <div class="stats" role="list">
+    <div class="stat" role="listitem"><b>550.00</b><span>of 600 on the national university entrance exam</span></div>
+    <div class="stat" role="listitem"><b>4.0</b><span>GPA, Rank 1 with Distinction</span></div>
+    <div class="stat" role="listitem"><b>#1 of 243</b><span>schools, three rounds in a row</span></div>
+    <div class="stat" role="listitem"><b>4K+</b><span>TikTok followers inspiring students</span></div>
+  </div>
+
+  <section id="exam">
+    <div class="sec-head">
+      <p class="eyebrow">National exam</p>
+      <h2>Top of the ESSLCE</h2>
+      <p>The Ethiopian Secondary School Leaving Certificate Examination (ESSLCE) decides university entry across the country.</p>
+    </div>
+    <div class="exam">
+      <div class="big"><span id="score">550.00</span><small> / 600</small></div>
+      <div class="meter">
+        <b style="font-weight:700">That is <span id="pct">91.7</span>% of the maximum mark.</b>
+        <div class="track" role="img" aria-label="Score 550.00 out of 600"><div class="fill" id="fill" style="width:91.7%"></div></div>
+        <div class="scale"><span>0</span><span>150</span><span>300</span><span>450</span><span>600</span></div>
+      </div>
+    </div>
+    <div class="subjects" aria-label="ESSLCE subject scores out of 100"><div class="sub"><span>English</span><div class="sbar"><i style="width:94%"></i></div><b>94</b></div><div class="sub"><span>Scholastic Aptitude Test</span><div class="sbar"><i style="width:78%"></i></div><b>78</b></div><div class="sub"><span>Mathematics</span><div class="sbar"><i style="width:95%"></i></div><b>95</b></div><div class="sub"><span>Physics</span><div class="sbar"><i style="width:95%"></i></div><b>95</b></div><div class="sub"><span>Chemistry</span><div class="sbar"><i style="width:95%"></i></div><b>95</b></div><div class="sub"><span>Biology</span><div class="sbar"><i style="width:93%"></i></div><b>93</b></div></div>
+  </section>
+
+  <section id="achievements">
+    <div class="sec-head">
+      <p class="eyebrow">Experience &amp; achievements</p>
+      <h2>Competing, leading, building</h2>
+      <p>Filter by the kind of work.</p>
+    </div>
+    <div class="filters" role="group" aria-label="Filter achievements" id="filters">
+      <button class="chip" type="button" data-f="all" aria-pressed="true">All</button>
+      <button class="chip" type="button" data-f="compete" aria-pressed="false">Competitions</button>
+      <button class="chip" type="button" data-f="lead" aria-pressed="false">Leadership</button>
+      <button class="chip" type="button" data-f="stem" aria-pressed="false">STEM</button>
+      <button class="chip" type="button" data-f="service" aria-pressed="false">Service</button>
+    </div>
+    <div class="cards" id="cards">
+      <article class="card hero-card" data-c="compete">
+        <span class="tag">Competition · National</span>
+        <h3>National Tax &amp; Customs Ambassador, Top 5 National Winner</h3>
+        <span class="org">Ministry of Revenues and Ethiopian Customs Commission</span>
+        <p>Ranked #1 in three consecutive rounds out of 243 secondary schools nationwide in the "Champion of Champions" National Quiz Competition, finishing 4th overall. Appointed as an official National Tax and Customs Ambassador.</p>
+      </article>
+      <article class="card" data-c="lead">
+        <span class="tag">Leadership · Media</span>
+        <h3>Program Coordinator, Mini-Media Presenter &amp; Peer Trainer</h3>
+        <span class="org">Oromia Development Association (ODA)</span>
+        <p>Led self-development workshops and peer training modules, and delivered public speeches. Managed school mini-media broadcasts, producing and presenting daily educational programs.</p>
+      </article>
+      <article class="card" data-c="stem">
+        <span class="tag">STEM · Hardware</span>
+        <h3>Electronics &amp; STEM Trainee</h3>
+        <span class="org">STEMpower Ethiopia, Foka STEM Center</span>
+        <p>Completed an intensive 12-week hands-on program in Basic Electronics and Computer Programming. Built working hardware prototypes and earned a formal letter of recommendation.</p>
+      </article>
+      <article class="card" data-c="compete lead">
+        <span class="tag">Competition · Public speaking</span>
+        <h3>Debater, Debate Judge &amp; English Club Member</h3>
+        <span class="org">ODA Special Boarding School</span>
+        <p>Won Round 1 in "The Great Debate" championship. Selected as a Judge for Round 2, evaluating peer debaters on rhetoric, logical consistency and public speaking standards.</p>
+      </article>
+      <article class="card" data-c="lead">
+        <span class="tag">Leadership · Influence</span>
+        <h3>Content Creator, 4K+ followers</h3>
+        <span class="org">TikTok · @naboniya</span>
+        <p>Influencing high schoolers and other students to aim high and achieve, through study and motivation content.</p>
+      </article>
+      <article class="card" data-c="service lead">
+        <span class="tag">Service · Discipline</span>
+        <h3>Military Trainee, National Youth Service</h3>
+        <span class="org">Ethiopian Air Force / Youth Training Center</span>
+        <p>45 days of intense physical and mental training that built discipline, teamwork and resilience.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="creator">
+    <div class="sec-head">
+      <p class="eyebrow">Content creator</p>
+      <h2>Inspiring students on TikTok</h2>
+    </div>
+    <div class="creator">
+      <div class="big"><span>4K+</span><small> followers</small></div>
+      <div>
+        <p>I create content on TikTok for high schoolers and other students, sharing how I study, compete and aim high so more of them can reach results like mine.</p>
+        <div class="cta"><a class="btn solid" href="https://www.tiktok.com/@naboniya" target="_blank" rel="noopener">Follow @naboniya</a><a class="btn" href="https://www.instagram.com/naboniya" target="_blank" rel="noopener">Instagram</a><a class="btn" href="https://x.com/naboniya" target="_blank" rel="noopener">X</a><a class="btn" href="https://www.youtube.com/@naboniya" target="_blank" rel="noopener">YouTube</a><a class="btn" href="https://www.facebook.com/naboniya" target="_blank" rel="noopener">Facebook</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="sec-head">
+      <p class="eyebrow">Technical stack &amp; training</p>
+      <h2>What I work with</h2>
+      <p>Pick a track to focus the list.</p>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Skill tracks" id="tabs">
+      <button class="chip" role="tab" type="button" data-g="all" aria-selected="true">All</button>
+      <button class="chip" role="tab" type="button" data-g="sec" aria-selected="false">Cyber security</button>
+      <button class="chip" role="tab" type="button" data-g="web" aria-selected="false">Full stack</button>
+      <button class="chip" role="tab" type="button" data-g="cs" aria-selected="false">Programming &amp; CS</button>
+    </div>
+    <div class="skillbox" id="skillbox"></div>
+    <div class="legend"><span><i style="background:var(--accent)"></i>Cyber security</span><span><i style="background:var(--accent-2)"></i>Full stack</span><span><i style="background:var(--fg)"></i>Programming &amp; CS</span></div>
+  </section>
+
+  <section id="education">
+    <div class="sec-head">
+      <p class="eyebrow">Education &amp; recognition</p>
+      <h2>Where I study</h2>
+    </div>
+    <div class="tl">
+      <div class="tl-item"><time>2025 – 2029</time><div><h3>Addis Ababa University</h3><p>Bachelor of Science in Computer Science.</p></div></div>
+      <div class="tl-item"><time>IBT College</time><div><h3>IBT College of Canada</h3><p>Full-Stack Software Development &amp; QA Engineering.</p></div></div>
+      <div class="tl-item"><time>High school</time><div><h3>ODA Special Boarding School</h3><p>High School Diploma, Natural Science Stream.</p><span class="pill">4.0 GPA</span><span class="pill">Rank 1 with Distinction</span><span class="pill">ESSLCE 550.00 / 600</span></div></div>
+      <div class="tl-item"><time>Recognition</time><div><h3>Awards &amp; certificates</h3><p>Education Festival Award, Oromia Education Bureau. Skills for Safety (Self-Protection &amp; Rights), Voice of HERs. Letter of recommendation, STEMpower Ethiopia.</p></div></div>
+    </div>
+  </section>
+
+  <section id="certificates">
+    <div class="sec-head">
+      <p class="eyebrow">Certificates</p>
+      <h2>The paperwork</h2>
+      <p>Tap a certificate to enlarge it.</p>
+    </div>
+    <div class="gal" id="gal"></div>
+  </section>
+
+  <section id="terminal">
+    <div class="sec-head">
+      <p class="eyebrow">Try it</p>
+      <h2>Ask my terminal</h2>
+      <p>Type a command or tap one below.</p>
+    </div>
+    <div class="term">
+      <div class="term-bar"><i></i><i></i><i></i><span>naboni@portfolio: ~</span></div>
+      <div class="term-out" id="out" aria-live="polite"></div>
+      <div class="hints" id="hints"></div>
+      <form class="term-in" id="tf" autocomplete="off">
+        <label for="ti">$</label><input id="ti" type="text" placeholder="type help" spellcheck="false" autocapitalize="off">
+      </form>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="sec-head">
+      <p class="eyebrow">Contact</p>
+      <h2>Let's talk</h2>
+      <p>Open to internships, collaborations, CTFs and conversations about security and software.</p>
+    </div>
+    <div class="contact">
+      <div class="crow"><div><small>Email</small><strong>naboniabrham1999@gmail.com</strong></div><button type="button" data-copy="naboniabrham1999@gmail.com">Copy</button></div>
+      <div class="crow"><div><small>Phone</small><strong>+251 985 851 691</strong></div><button type="button" data-copy="+251 985 851 691">Copy</button></div>
+      <div class="crow"><div><small>TikTok · 4K+ followers</small><strong>@naboniya</strong></div><a class="go" href="https://www.tiktok.com/@naboniya" target="_blank" rel="noopener">Open</a></div>
+      <div class="crow"><div><small>Instagram</small><strong>@naboniya</strong></div><a class="go" href="https://www.instagram.com/naboniya" target="_blank" rel="noopener">Open</a></div>
+      <div class="crow"><div><small>X (Twitter)</small><strong>@naboniya</strong></div><a class="go" href="https://x.com/naboniya" target="_blank" rel="noopener">Open</a></div>
+      <div class="crow"><div><small>YouTube</small><strong>@naboniya</strong></div><a class="go" href="https://www.youtube.com/@naboniya" target="_blank" rel="noopener">Open</a></div>
+      <div class="crow"><div><small>Facebook</small><strong>@naboniya</strong></div><a class="go" href="https://www.facebook.com/naboniya" target="_blank" rel="noopener">Open</a></div>
+      <div class="crow"><div><small>LinkedIn</small><strong>linkedin.com/in/naboni-abrham-code</strong></div><a class="go" href="https://www.linkedin.com/in/naboni-abrham-code" target="_blank" rel="noopener">Open</a></div>
+      <div class="crow"><div><small>GitHub</small><strong>github.com/naboni-git</strong></div><a class="go" href="https://github.com/naboni-git" target="_blank" rel="noopener">Open</a></div>
+    </div>
+  </section>
+
+  <footer>Naboni Abrham · Addis Ababa, Ethiopia · 2026</footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
